@@ -1,0 +1,49 @@
+<nav class="fixed-top">
+        <div id="brand-div">
+            <a href="">brand</a>
+        </div>
+        <div id="search-div">
+
+        </div>
+
+        <div id="user-div" class="col-md-3 col-sm-4">
+
+        </div>
+
+</nav>
+<div style="height: 64px;"></div>
+
+{# media #}
+<style>
+    html {
+        font-size: 16px;
+    }
+
+    #brand-div{
+        float:left;
+        width:20px;
+    }
+
+    #user-div{
+        float:right;
+        border:1px solid blue;
+    }
+
+    /* medium */
+    @media only screen and (max-width: 992px) {
+        {##brand-div{width: 20%;}#}
+        {##search-div{width: 50%;}#}
+        #user-div{width: 25%;}
+    }
+
+    /* large */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    }
+
+    /* Extra large */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+    }
+
+</style>
+
